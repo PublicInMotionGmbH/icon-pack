@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "TalixoIcons";
+	src: url('./TalixoIcons.eot');
+	src: url('./TalixoIcons.eot?#iefix') format('eot'),
+		url('./TalixoIcons.woff2') format('woff2'),
+		url('./TalixoIcons.woff') format('woff'),
+		url('./TalixoIcons.ttf') format('truetype'),
+		url('./TalixoIcons.svg#TalixoIcons') format('svg');
+}
+
+.tai:before {
+	font-family: "TalixoIcons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.tai-affiliate:before {
+	content: "\E001";
+}
+
+.tai-api:before {
+	content: "\E002";
+}
+
+.tai-arrow-right-light:before {
+	content: "\E003";
+}
+
+.tai-banners:before {
+	content: "\E004";
+}
+
+.tai-bullet-ltr:before {
+	content: "\E005";
+}
+
+.tai-check-sign:before {
+	content: "\E006";
+}
+
+.tai-child:before {
+	content: "\E007";
+}
+
+.tai-circle:before {
+	content: "\E008";
+}
+
+.tai-heart:before {
+	content: "\E009";
+}
+
+.tai-increase-volume:before {
+	content: "\E00A";
+}
+
+.tai-mobile-apps:before {
+	content: "\E00B";
+}
+
+.tai-rocket:before {
+	content: "\E00C";
+}
+
+.tai-tools:before {
+	content: "\E00D";
+}
+
+.tai-touch:before {
+	content: "\E00E";
+}
+
+.tai-whitelabel:before {
+	content: "\E00F";
+}
+
+.tai-widget:before {
+	content: "\E010";
+}
