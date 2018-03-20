@@ -29,7 +29,7 @@
 	content: "\E002";
 }
 
-.tai-arrow-right-light:before {
+.tai-arrow_right_light:before {
 	content: "\E003";
 }
 
@@ -37,11 +37,11 @@
 	content: "\E004";
 }
 
-.tai-bullet-ltr:before {
+.tai-bullet_ltr:before {
 	content: "\E005";
 }
 
-.tai-check-sign:before {
+.tai-check_sign:before {
 	content: "\E006";
 }
 
@@ -57,11 +57,11 @@
 	content: "\E009";
 }
 
-.tai-increase-volume:before {
+.tai-increase_volume:before {
 	content: "\E00A";
 }
 
-.tai-mobile-apps:before {
+.tai-mobile_apps:before {
 	content: "\E00B";
 }
 

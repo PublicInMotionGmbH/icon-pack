@@ -35,5 +35,6 @@ You can run them using `npm run TASK_NAME` command.
 
 ## How to add new icons?
 
+- Icon should have underscores (`_` instead of `-` characters)
 - Add desired SVG icons into `icons/svg` directory
 - Run `npm run build`
