@@ -4,7 +4,7 @@ const utils = require('../lib/utils')
 const config = require('../config')
 
 // Regular expression to extract icon name from path
-const regex = /\/(.+)\.svg$/
+const regex = /\/([^/]+)\.svg$/
 
 /**
  * Get icon name by its path

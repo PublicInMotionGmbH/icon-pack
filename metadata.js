@@ -22,21 +22,21 @@ module.exports = {
     "density": 1
   },
   "icons": [
-    "svg/affiliate",
-    "svg/api",
-    "svg/arrow_right_light",
-    "svg/banners",
-    "svg/bullet_ltr",
-    "svg/check_sign",
-    "svg/child",
-    "svg/circle",
-    "svg/heart",
-    "svg/increase_volume",
-    "svg/mobile_apps",
-    "svg/rocket",
-    "svg/tools",
-    "svg/touch",
-    "svg/whitelabel",
-    "svg/widget"
+    "affiliate",
+    "api",
+    "arrow_right_light",
+    "banners",
+    "bullet_ltr",
+    "check_sign",
+    "child",
+    "circle",
+    "heart",
+    "increase_volume",
+    "mobile_apps",
+    "rocket",
+    "tools",
+    "touch",
+    "whitelabel",
+    "widget"
   ]
 }
