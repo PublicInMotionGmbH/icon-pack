@@ -202,7 +202,7 @@ function buildAllIcons () {
 /**
  * Gulp task to build icons for iOS
  *
- * @returns {Promise<void>}
+ * @returns {Promise}
  */
 function buildIconsForIos () {
   return Promise.resolve()

@@ -30,6 +30,7 @@ You can run them using `npm run TASK_NAME` command.
 - `android` - Build Android Vector Drawables in `icons/drawables` directory
 - `ios` - Build raster images for iOS
 - `webfont` - Build icon font
+- `meta` - Generate meta file with information about all files
 - `build` - Build everything!
 
 ## How to add new icons?

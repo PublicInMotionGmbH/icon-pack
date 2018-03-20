@@ -4,11 +4,13 @@
   "description": "Pack of Talixo icons",
   "author": "Talixo",
   "license": "MIT",
+  "main": "metadata.js",
   "scripts": {
     "build": "gulp",
     "optimize-svg": "gulp optimize-svg",
     "android": "gulp android",
     "webfont": "gulp webfont",
+    "meta": "gulp meta",
     "ios": "gulp ios"
   },
   "devDependencies": {

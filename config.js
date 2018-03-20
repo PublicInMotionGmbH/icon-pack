@@ -4,7 +4,8 @@ module.exports = {
     svg: 'icons/svg',
     ios: 'icons/ios',
     drawables: 'icons/android',
-    webfont: 'webfont'
+    webfont: 'webfont',
+    meta: 'metadata.js'
   },
   font: {
     name: 'TalixoIcons',
