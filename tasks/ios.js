@@ -154,7 +154,7 @@ function moveIcons (suffix) {
   const uniqNames = unique(names)
 
   // Generate Contents.json files
-  const contentsPromises = Promise.all(uniqNames.map(buildContentsFile))
+  const contentsPromises = uniqNames.map(buildContentsFile)
 
   // Resolve when everything is done
   return Promise.all([
@@ -183,6 +183,7 @@ function extractIcons (colorName, size) {
 
 /**
  * Build all variations of raster icons based on configuration
+ *
  * @returns {Promise}
  */
 function buildAllIcons () {
