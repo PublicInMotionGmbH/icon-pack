@@ -38,3 +38,4 @@ You can run them using `npm run TASK_NAME` command.
 - Icon should have underscores (`_` instead of `-` characters)
 - Add desired SVG icons into `icons/svg` directory
 - Run `npm run build`
+- Change version in `package.json` and run `npm publish --access=public`
