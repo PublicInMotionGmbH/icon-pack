@@ -5,8 +5,11 @@
   "author": "Talixo",
   "license": "MIT",
   "scripts": {
+    "build": "gulp",
     "optimize-svg": "gulp optimize-svg",
-    "android": "gulp android"
+    "android": "gulp android",
+    "webfont": "gulp webfont",
+    "ios": "gulp ios"
   },
   "devDependencies": {
     "fs-extra": "^5.0.0",
@@ -14,8 +17,10 @@
     "gulp": "^3.9.1",
     "gulp-iconfont": "^9.1.0",
     "gulp-iconfont-css": "^2.1.0",
+    "gulp-svgo": "^1.4.0",
+    "lodash": "^4.17.5",
+    "rimraf": "^2.6.2",
     "svg2android": "^1.0.1",
-    "svgo": "^1.0.5",
     "through2": "^2.0.3",
     "vinyl": "^2.1.0"
   }

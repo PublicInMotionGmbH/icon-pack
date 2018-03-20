@@ -1,16 +1,18 @@
 const gulp = require('gulp')
-const svgo = require('gulp-svgo')
 
-const createSvgToVectorDrawableStream = require('./lib/createSvgToVectorDrawableStream')
+// Load tasks
 
-gulp.task('optimize-svg', () => {
-  return gulp.src('icons/svg/**/*.svg')
-    .pipe(svgo())
-    .pipe(gulp.dest('icons/svg'))
-})
+const tasks = {
+  android: require('./tasks/android'),
+  optimizeSvg: require('./tasks/optimizeSvg'),
+  webfont: require('./tasks/webfont'),
+  ios: require('./tasks/ios')
+}
 
-gulp.task('android', () => {
-  return gulp.src('icons/svg/**/*.svg')
-    .pipe(createSvgToVectorDrawableStream())
-    .pipe(gulp.dest('icons/android'))
-})
+// Set up tasks
+
+gulp.task('optimize-svg', tasks.optimizeSvg)
+gulp.task('android', tasks.android)
+gulp.task('webfont', tasks.webfont)
+gulp.task('ios', [ 'webfont' ], tasks.ios)
+gulp.task('default', [ 'optimize-svg', 'android', 'webfont', 'ios' ])
