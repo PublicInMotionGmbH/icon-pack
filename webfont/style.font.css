@@ -1,21 +1,21 @@
 @font-face {
-	font-family: 'TalixoIcons';
-	src: url('./TalixoIcons.eot');
-	src: url('./TalixoIcons.eot?#iefix') format('eot'),
-		url('./TalixoIcons.woff2') format('woff2'),
-		url('./TalixoIcons.woff') format('woff'),
-		url('./TalixoIcons.ttf') format('truetype'),
-		url('./TalixoIcons.svg#TalixoIcons') format('svg');
+  font-family: 'TalixoIcons';
+  src: url('./TalixoIcons.eot');
+  src: url('./TalixoIcons.eot?#iefix') format('eot'),
+       url('./TalixoIcons.woff2') format('woff2'),
+       url('./TalixoIcons.woff') format('woff'),
+       url('./TalixoIcons.ttf') format('truetype'),
+       url('./TalixoIcons.svg#TalixoIcons') format('svg');
 }
 
-.tai:before {
-	font-family: 'TalixoIcons';
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-	text-decoration: none;
-	text-transform: none;
+.tai {
+  font-family: 'TalixoIcons';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
 }

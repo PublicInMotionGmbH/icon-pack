@@ -42,6 +42,7 @@ You can run them using `npm run TASK_NAME` command.
 
 ## Changelog
 
+- **1.2.1** - generate new stylesheets
 - **1.2.0** - change formatting of stylesheets
 - **1.1.2** - bugfix for analysing codepoints
 - **1.1.1** - generate additional stylesheet with font only stylesheet
