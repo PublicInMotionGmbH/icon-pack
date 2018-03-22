@@ -42,6 +42,7 @@ You can run them using `npm run TASK_NAME` command.
 
 ## Changelog
 
+- **1.1.2** - bugfix for analysing codepoints
 - **1.1.1** - generate additional stylesheet with font only stylesheet
 - **1.1.0** - change `icons` in metadata from list of icons (`string[]`) to map of icon codepoints (`object`)
 - **1.0.0** - initial version
