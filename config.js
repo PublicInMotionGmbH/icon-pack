@@ -10,7 +10,8 @@ module.exports = {
   font: {
     name: 'TalixoIcons',
     prefix: 'tai',
-    stylesheet: 'style.css'
+    stylesheet: 'style.css',
+    fontOnlyStylesheet: 'style.font.css'
   },
   raster: {
     defaultColor: 'black',
