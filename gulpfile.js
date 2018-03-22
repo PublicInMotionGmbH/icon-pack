@@ -14,8 +14,8 @@ const tasks = {
 
 gulp.task('optimize-svg', tasks.optimizeSvg)
 gulp.task('android', [ 'optimize-svg' ], tasks.android)
-gulp.task('webfont', [ 'optimize-svg', 'meta' ], tasks.webfont)
+gulp.task('webfont', [ 'optimize-svg' ], tasks.webfont)
 gulp.task('ios', [ 'optimize-svg', 'webfont' ], tasks.ios)
-gulp.task('meta', tasks.meta)
+gulp.task('meta', [ 'webfont' ], tasks.meta)
 
 gulp.task('default', [ 'optimize-svg', 'android', 'ios', 'meta' ])

@@ -21,22 +21,22 @@ module.exports = {
     "size": 24,
     "density": 1
   },
-  "icons": [
-    "affiliate",
-    "api",
-    "arrow_right_light",
-    "banners",
-    "bullet_ltr",
-    "check_sign",
-    "child",
-    "circle",
-    "heart",
-    "increase_volume",
-    "mobile_apps",
-    "rocket",
-    "tools",
-    "touch",
-    "whitelabel",
-    "widget"
-  ]
+  "icons": {
+    "affiliate": "",
+    "api": "",
+    "arrow_right_light": "",
+    "banners": "",
+    "bullet_ltr": "",
+    "check_sign": "",
+    "child": "",
+    "circle": "",
+    "heart": "",
+    "increase_volume": "",
+    "mobile_apps": "",
+    "rocket": "",
+    "tools": "",
+    "touch": "",
+    "whitelabel": "",
+    "widget": ""
+  }
 }

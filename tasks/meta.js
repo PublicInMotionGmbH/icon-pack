@@ -1,26 +1,14 @@
+const fs = require('fs')
 const glob = require('glob')
+const path = require('path')
 
 const utils = require('../lib/utils')
 const config = require('../config')
 
-// Regular expression to extract icon name from path
-const regex = /\/([^/]+)\.svg$/
+const extractCodePointsFromStyles = require('../lib/extractCodePointsFromStyles')
 
-/**
- * Get icon name by its path
- *
- * @param {string} iconPath
- * @returns {string|null}
- */
-function getIconName (iconPath) {
-  const match = iconPath.match(regex)
-
-  if (!match) {
-    return null
-  }
-
-  return match[1]
-}
+// Get path to stylesheet of webfont
+const stylesheetPath = path.join(config.paths.webfont, config.font.stylesheet)
 
 /**
  * Gulp task to build webfont with icons
@@ -28,9 +16,8 @@ function getIconName (iconPath) {
  * @returns {Promise}
  */
 function generateMetadata () {
-  const icons = glob.sync('icons/svg/**/*.svg')
-    .map(getIconName)
-    .filter(x => x)
+  const css = fs.readFileSync(stylesheetPath, 'utf8')
+  const icons = extractCodePointsFromStyles(config.font.prefix, css)
 
   const data = {
     colors: Object.keys(config.raster.colors),
