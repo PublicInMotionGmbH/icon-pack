@@ -39,3 +39,8 @@ You can run them using `npm run TASK_NAME` command.
 - Add desired SVG icons into `icons/svg` directory
 - Run `npm run build`
 - Change version in `package.json` and run `npm publish --access=public`
+
+## Changelog
+
+- **1.1.0** - change `icons` in metadata from list of icons (`string[]`) to map of icon codepoints (`object`)
+- **1.0.0** - initial version
