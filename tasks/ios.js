@@ -212,6 +212,10 @@ function buildIconsForIos () {
 
     .then(() => utils.removeDirectory('cache'))
     .then(() => utils.removeDirectory('exported'))
+
+    .catch(error => {
+      console.error('IOS Error: ', error)
+    })
 }
 
 module.exports = buildIconsForIos
