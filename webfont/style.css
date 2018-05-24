@@ -33,54 +33,98 @@
   content: '\E003';
 }
 
-.tai-banners:before {
+.tai-avatar:before {
   content: '\E004';
 }
 
-.tai-bullet_ltr:before {
+.tai-banners:before {
   content: '\E005';
 }
 
-.tai-check_sign:before {
+.tai-bed:before {
   content: '\E006';
 }
 
-.tai-child:before {
+.tai-bullet_ltr:before {
   content: '\E007';
 }
 
-.tai-circle:before {
+.tai-calendar_outline:before {
   content: '\E008';
 }
 
-.tai-heart:before {
+.tai-check_sign:before {
   content: '\E009';
 }
 
-.tai-increase_volume:before {
+.tai-child:before {
   content: '\E00A';
 }
 
-.tai-mobile_apps:before {
+.tai-circle:before {
   content: '\E00B';
 }
 
-.tai-rocket:before {
+.tai-dog:before {
   content: '\E00C';
 }
 
-.tai-tools:before {
+.tai-golf_sticks:before {
   content: '\E00D';
 }
 
-.tai-touch:before {
+.tai-heart:before {
   content: '\E00E';
 }
 
-.tai-whitelabel:before {
+.tai-hotel:before {
   content: '\E00F';
 }
 
-.tai-widget:before {
+.tai-increase_volume:before {
   content: '\E010';
+}
+
+.tai-luggage:before {
+  content: '\E011';
+}
+
+.tai-mobile_apps:before {
+  content: '\E012';
+}
+
+.tai-moon_outline:before {
+  content: '\E013';
+}
+
+.tai-rocket:before {
+  content: '\E014';
+}
+
+.tai-seat_big:before {
+  content: '\E015';
+}
+
+.tai-seat_small:before {
+  content: '\E016';
+}
+
+.tai-sun_outline:before {
+  content: '\E017';
+}
+
+.tai-tools:before {
+  content: '\E018';
+}
+
+.tai-touch:before {
+  content: '\E019';
+}
+
+.tai-whitelabel:before {
+  content: '\E01A';
+}
+
+.tai-widget:before {
+  content: '\E01B';
 }

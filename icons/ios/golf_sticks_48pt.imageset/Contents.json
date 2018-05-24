@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "filename": "golf_sticks_48pt.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "filename": "golf_sticks_48pt_2x.png",
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "filename": "golf_sticks_48pt_3x.png",
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
