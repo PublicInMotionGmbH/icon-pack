@@ -38,17 +38,16 @@ module.exports = {
     "heart": "",
     "hotel": "",
     "increase_volume": "",
-    "lock_outline": "",
-    "luggage": "",
-    "mobile_apps": "",
-    "moon_outline": "",
-    "rocket": "",
-    "seat_big": "",
-    "seat_small": "",
-    "sun_outline": "",
-    "tools": "",
-    "touch": "",
-    "whitelabel": "",
-    "widget": ""
+    "luggage": "",
+    "mobile_apps": "",
+    "moon_outline": "",
+    "rocket": "",
+    "seat_big": "",
+    "seat_small": "",
+    "sun_outline": "",
+    "tools": "",
+    "touch": "",
+    "whitelabel": "",
+    "widget": ""
   }
 }
