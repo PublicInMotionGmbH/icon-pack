@@ -85,46 +85,50 @@
   content: '\E010';
 }
 
-.tai-luggage:before {
+.tai-lock_outline:before {
   content: '\E011';
 }
 
-.tai-mobile_apps:before {
+.tai-luggage:before {
   content: '\E012';
 }
 
-.tai-moon_outline:before {
+.tai-mobile_apps:before {
   content: '\E013';
 }
 
-.tai-rocket:before {
+.tai-moon_outline:before {
   content: '\E014';
 }
 
-.tai-seat_big:before {
+.tai-rocket:before {
   content: '\E015';
 }
 
-.tai-seat_small:before {
+.tai-seat_big:before {
   content: '\E016';
 }
 
-.tai-sun_outline:before {
+.tai-seat_small:before {
   content: '\E017';
 }
 
-.tai-tools:before {
+.tai-sun_outline:before {
   content: '\E018';
 }
 
-.tai-touch:before {
+.tai-tools:before {
   content: '\E019';
 }
 
-.tai-whitelabel:before {
+.tai-touch:before {
   content: '\E01A';
 }
 
-.tai-widget:before {
+.tai-whitelabel:before {
   content: '\E01B';
+}
+
+.tai-widget:before {
+  content: '\E01C';
 }
